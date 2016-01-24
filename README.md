@@ -1,4 +1,4 @@
-ICSLog Library
+ICSLogs Library
 ===
 A repository for relevant details related to log aggregation from multiple application environments related to Industrial Control Systems.
 
@@ -25,7 +25,7 @@ To allow for a common understanding and sequence for building the tool set for e
 
 ##Chat Room
 
-[![Join the chat at https://gitter.im/ICSLogs/Main](https://badges.gitter.im/ICSLogs/Main.svg)](https://gitter.im/ICSLogs/Main?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ICSLogs/ICSLogs-Main](https://badges.gitter.im/ICSLogs/ICSLogs-Main.svg)](https://gitter.im/ICSLogs/ICSLogs-Main?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## TODO List
 Check out the [Issues](/../../issues) List
