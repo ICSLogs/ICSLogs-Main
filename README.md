@@ -11,14 +11,6 @@ While most ICS application servers and client software runs on Windows, the out 
 ##Theme - It's  A Start
 The overarching theme for this project will be "It's a Start".  While some outside the community of contributors may discount the direction and/or ultimate value the simple fact remains that any movement towards better log and event aggregation for Industrial Control Systems will have real tangible value.  An ideal end point would be log aggregation from heterogeneous platforms with sophisticated correlations and analysis.  However, the simple act of cataloging all available log files for a given application and possibly collecting these logs in near real time might might make a huge difference should an unwelcome event occur some time in the future.
 
-From a logical progression standpoint here are my thoughts on how to arrange the efforts:
-
-|**Catalog **|For a particular application review documentation as well as actual installations to attempt to catalog all available logs.  These might be in the form of text files spread throughout the machine, Windows Event Logs, SQL Server databases, SysLog feeds, etc.|
-|**Characterize **|For each log, analyze and document the format of the logs.  For standard logs this is minimal effort.  For delimited text files this will require a layout of the file.  For databases we would include a T-SQL statement showing all details necessary to create the relevant table.|
-|**Collect **| Create a configuration for your favorite log collection engine (Splunk being the current leader for a target) for each log identified in the Catalog step.|
-|**Analyze **| Based on real data and the capabilities of the log collection engine create basic and sophisticated analysis rules for determining what data should be highlighted for alerting or further analysis.|
-|**Alert **|Utilize the log collection engine's built in alerting capabilities to alert relevant parties to critical information in a timely manner.|
-
 
 ## Organization
 A unique repository will be created for each unique application.  For situations where there might be two major applications from a single vendor, Emerson DeltaV and Ovation for example, a unique repository should be created for each.
